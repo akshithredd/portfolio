@@ -30,19 +30,42 @@ a{
 
 /* nav bar end*/
 
-/*main*/
-#heading{
-    display: flex;
-    justify-content: center;
+/*dis in main*/
+#dis{
+    position: relative;
 }
-#heading2{
-    font-size: 20px;
-    border-radius: 15px;
+#boll1{
+    top: 20px;
+    position: absolute;
+    left: 700px;
+    background: linear-gradient(200deg ,  rgb(212, 43, 71), rgb(67, 67, 246));
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+#boll2{
+    top: 195px;
+    left: 300px;
+    position: absolute;
+    background: linear-gradient(200deg , rgb(212, 43, 71), rgb(67, 67, 246));
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+#main{
     display: flex;
     justify-content: center;
-    align-items: center;
-    background: linear-gradient(45deg, gold, #ffffff);
-    background-clip: text;
-    color: transparent;
-    width: 200px;
+    position: relative;
+
+}
+#about{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.253);
+    border-radius: 25px;
+    height: 80vh;
+    width: 75vb;
+
 }

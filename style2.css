@@ -19,7 +19,7 @@ nav{
     width: 300px;
     height: 50px;
     border: 1px black solid;
-    background: linear-gradient(200deg , rgb(212, 95, 114), rgb(105, 105, 201));
+    rgb(105, 105, 201));
 }
 
 a{
