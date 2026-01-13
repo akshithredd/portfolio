@@ -42,6 +42,7 @@ a{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    filter: blur(20px);
 }
 
 #boll2{
@@ -52,20 +53,39 @@ a{
     width: 300px;
     height: 300px;
     border-radius: 50%;
+    filter: blur(20px);
 }
 #main{
     display: flex;
     justify-content: center;
     position: relative;
+    transition: all 0.3s ease;
 
 }
 #about{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     position: absolute;
-    background-color:rgba(0, 0, 0, 0.253);
-    border-radius: 25px;
+    background-color:rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
     height: 80vh;
     width: 75vb;
 
 }
+p{
+    margin: 10px;
+    align-self: flex-start;
+}
+
+#main:hover{
+    transform: scaleX(1.05);
+}
+#about:hover{
+    transform: none;
+}
+
