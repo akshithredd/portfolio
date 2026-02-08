@@ -9,7 +9,6 @@ body{
     height: 100vh;
     width: 100vw;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     position: relative;
     overflow: hidden;
@@ -46,6 +45,7 @@ a{
     position: relative;
     border-radius: 12px;
     display: flex;
+    margin-top: 75px;
 }
 @property --angle{
     syntax: "<angle>";
